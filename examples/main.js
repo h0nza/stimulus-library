@@ -82,6 +82,7 @@ import {
   TrixModifierController,
   TrixStrikethroughController,
   TurboFrameRCController,
+  TrixUnderlineController,
   TurboFrameRefreshController,
   UserFocusController,
   ValueWarnController,
@@ -168,6 +169,8 @@ app.register("timeout", TimeoutController);
 app.register("toggle-class", ToggleClassController);
 app.register("tree-view", TreeViewController);
 app.register("trix-modifier", TrixModifierController);
+app.register("trix-strikethrough", TrixStrikethroughController);
+app.register("trix-underline", TrixUnderlineController);
 app.register("turbo-frame-rc", TurboFrameRCController);
 app.register("turbo-frame-refresh", TurboFrameRefreshController);
 app.register("user-focus", UserFocusController);
